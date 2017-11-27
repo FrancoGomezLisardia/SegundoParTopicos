@@ -12,6 +12,12 @@ public class topicosParcialTest {
 	}
 
 	@Test
+	public void puntoFrameTest() {
+		topicos topico=new topicos();
+		int resultado = topico.puntoFramePleno(10, 5, 4);
+		assertEquals(19, resultado);
+	}
+	@Test
 	public void test() {
 		topicos topico=new topicos();
 		int resultado = topico.puntoFramePleno(10, 5, 4);
